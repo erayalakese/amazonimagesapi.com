@@ -218,3 +218,8 @@ img {
   width: 30%;
   float: right;
 }
+
+.link {
+  text-decoration: underline;
+  color: white
+}
