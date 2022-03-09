@@ -10,6 +10,8 @@ const code = "var requestOptions = {\n" +
 
 $(document).ready(function () {
     $(".search").on("click", function () {
+        $("pre.response").get(0).innerText = "Fetching..."
+        
         const asin = $('#asin').val();
         const domain = $('#domain').val();
 
